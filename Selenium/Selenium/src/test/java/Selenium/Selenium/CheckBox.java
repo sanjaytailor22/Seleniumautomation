@@ -15,10 +15,7 @@ public class CheckBox
 		WebDriver driver = new ChromeDriver();
 
 		driver.manage().window().maximize();
-		
-		
-		
-		
+				
 		// Wait
 
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
